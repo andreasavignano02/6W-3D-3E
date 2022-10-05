@@ -1,0 +1,28 @@
+$background : black;
+$text : center;
+$font : 2 rem;
+$width : 100%;
+$color : white;
+$spaziointerno : 2 rem;
+$img : url(../immagini/raisting-satellite-g3bab187b3_640.jpg);
+$repet : no-repeat;
+$font-img : cover;
+
+header{
+    background-color: $background;
+    font-size: $font;
+    width: $width;
+    color: $color;
+    padding: $spaziointerno;
+}
+
+.titolo{
+    text-align: $text;
+}
+
+body{
+    background: $img;
+    background-repeat:$repet;
+    background-size: $font-img;
+}
+
